@@ -88,4 +88,9 @@
   .explain .box2 {
     order: 2;
   }
+
+  .footer-list {
+    text-align: center;
+    margin: 0;
+  }
 }

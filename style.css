@@ -1,16 +1,6 @@
 @charset "UTF-8";
 
 @font-face {
-	font-family: 'BarcelonaStreets';
-  src: url('fonts/BarcelonaStreets.otf')
-}
-
-@font-face {
-	font-family: 'SprayLettersotf';
-  src: url('fonts/SprayLettersotf.otf')
-}
-
-@font-face {
 	font-family: 'NextCustom';
   src: url('fonts/NextCustom.ttf')
 }
@@ -28,11 +18,6 @@
 @font-face {
 	font-family: 'AttackGraffiti';
   src: url('fonts/AttackGraffiti.ttf')
-}
-
-@font-face {
-	font-family: 'adrip';
-  src: url('fonts/adripttf.ttf')
 }
 /* CSS Document */
 
@@ -61,7 +46,6 @@ body {
 
 h1 {
   font-family: 'SisterSpray';
-  font-weight: normal;
   font-size: 70px;
   letter-spacing: 20px;
   color: blueviolet !important; 
@@ -69,7 +53,6 @@ h1 {
 
 h2 {
   font-family: 'AttackGraffiti';
-  font-weight: normal;
   font-size: 80px;
   letter-spacing: 10px;
   text-align: center;
