@@ -24,6 +24,16 @@
 	font-family: 'Urban_slick';
   src: url('fonts/Urban_slick.ttf')
 }
+
+@font-face {
+	font-family: 'AttackGraffiti';
+  src: url('fonts/AttackGraffiti.ttf')
+}
+
+@font-face {
+	font-family: 'adrip';
+  src: url('fonts/adripttf.ttf')
+}
 /* CSS Document */
 
 * {
@@ -46,22 +56,23 @@ body {
 }
 
 .profile-wrapper, .works-wrapper, .skill-wrapper, .contact-wrapper{
-  margin: 30px 0;
+  margin: 100px 0;
 }
 
 h1 {
-  font-size: 60px;
-  font-family: SisterSpray;
-  letter-spacing: 10px;
+  font-family: 'SisterSpray';
+  font-weight: normal;
+  font-size: 70px;
+  letter-spacing: 20px;
   color: blueviolet !important; 
-  transition-duration: 2s;
 }
 
 h2 {
-  font-size: 100px;
+  font-family: 'AttackGraffiti';
+  font-weight: normal;
+  font-size: 80px;
   letter-spacing: 10px;
   text-align: center;
-  font-family: 'Urban_slick';
   color: white !important;
 }
 
@@ -111,14 +122,14 @@ header {
 
 .header-list li {
   flex: auto;
-  line-height: 75px;
 }
 
 .header-list a {
   color: white;
-  font-family: NextCustom;
+  font-family: 'NextCustom';
   text-decoration-line: none;
   display: block;
+  line-height: 75px;
   transition: all 0.5s;
 }
 
@@ -165,7 +176,7 @@ header {
 }
 
 .work {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   padding: 10px 20px;
   background-color: white;
 }
@@ -205,6 +216,10 @@ table tr, th {
   text-align: center;
 }
 
+.contact-wrapper {
+  text-align: center;
+}
+
 .contact-wrapper p {
   background-color: white;
 }
@@ -226,4 +241,8 @@ footer {
 
 .footer-list a {
   color: white;
+}
+
+.footer-list a:hover {
+  color: darkgray;
 }

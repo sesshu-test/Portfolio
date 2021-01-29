@@ -2,15 +2,23 @@
 @media all and (max-width: 1000px) {
   h1 {
     font-size: 50px;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
   }
 
   h2 {
-    font-size: 80px;
+    font-size: 70px;
   }
 
   header a {
     font-size: 20px;
+  }
+
+  .container {
+    padding: 0 50px;
+  }
+
+  .profile-wrapper p{
+    padding: 10px 35px 10px 0;
   }
 }
 
@@ -21,7 +29,7 @@
   }
 
   h2 {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   h3 {
@@ -36,8 +44,33 @@
     font-size: 15px;
   }
 
-  header a {
+  header {
+    height: 50px;
+  }
+
+  .header-list a {
     font-size: 10px;
+    line-height: 50px;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+
+  .top-wrapper {
+    height: 600px;
+    margin-bottom: -200px;
+    text-align: center;
+  }
+  
+  .top-wrapper h1{
+    color: white;
+    line-height: 600px;
+  }
+
+  .profile-wrapper p{
+    padding-top: 10px;
+    padding-right: 15px;
   }
 
   .explain {
