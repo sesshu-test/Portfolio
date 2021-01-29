@@ -23,6 +23,10 @@
 }
 
 @media all and (max-width: 670px) {
+  body {
+    background: cover;
+  }
+
   h1 {
     font-size: 25px;
     letter-spacing: 5px;
@@ -44,6 +48,11 @@
     font-size: 15px;
   }
 
+  .profile-wrapper, .works-wrapper, .skill-wrapper, .contact-wrapper{
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
   header {
     height: 50px;
   }
@@ -54,7 +63,7 @@
   }
 
   .container {
-    padding: 0 30px;
+    padding: 0;
   }
 
   .top-wrapper {
@@ -73,12 +82,17 @@
     padding-right: 15px;
   }
 
+  .work {
+    padding: 10px 5px;
+  }
+
   .explain {
     flex-wrap: wrap;
   }
 
   .explain li {
     width: 100%;
+    padding: 10px 10px;
   }
 
   .explain .box1 {
@@ -87,6 +101,10 @@
 
   .explain .box2 {
     order: 2;
+  }
+
+  .contact-wrapper p {
+    padding: 0 5px;
   }
 
   .footer-list {
