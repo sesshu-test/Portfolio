@@ -1,6 +1,30 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
+  h1 {
+    font-size: 40px;
+    letter-spacing: 0px;
+  }
 }
 
 @media all and (max-width: 670px) {
+  h1 {
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
+
+  .explain {
+    flex-wrap: wrap;
+  }
+
+  .explain li {
+    width: 100%;
+  }
+
+  .explain .box1 {
+    order: 1;
+  }
+
+  .explain .box2 {
+    order: 2;
+  }
 }
