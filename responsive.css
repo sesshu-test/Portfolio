@@ -67,14 +67,14 @@
   }
 
   .top-wrapper {
-    height: 600px;
-    margin-bottom: -200px;
+    height: 500px;
+    margin-bottom: -100px;
     text-align: center;
   }
   
   .top-wrapper h1{
     color: white;
-    line-height: 600px;
+    line-height: 500px;
   }
 
   .profile-wrapper p{
