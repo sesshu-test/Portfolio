@@ -1,21 +1,44 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
   h1 {
-    font-size: 40px;
-    letter-spacing: 0px;
+    font-size: 50px;
+    letter-spacing: 5px;
   }
+
   h2 {
-    font-size: 60px;
+    font-size: 80px;
+  }
+
+  header a {
+    font-size: 20px;
   }
 }
 
 @media all and (max-width: 670px) {
   h1 {
-    font-size: 20px;
-    letter-spacing: 0px;
+    font-size: 25px;
+    letter-spacing: 5px;
   }
 
-  
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 27px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  header a {
+    font-size: 10px;
+  }
 
   .explain {
     flex-wrap: wrap;
