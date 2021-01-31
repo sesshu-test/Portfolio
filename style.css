@@ -154,16 +154,12 @@ header {
   margin-top: -80px;
 }
 
-.work {
+.works-wrapper .work {
   padding: 20px 20px;
   background-color: white;
 }
 
-.WG {
-  margin-bottom: 50px;
-}
-
-.explain {
+.works-wrapper .explain {
   display: flex;
   flex-wrap: wrap;
 }
@@ -172,6 +168,15 @@ header {
   padding: 20px 20px;
   flex: auto;
   width: 50%;
+}
+
+.works-wrapper a {
+  margin-right: 10px;
+  float:left;
+}
+
+.Bot {
+  margin: 50px 0;
 }
 
 .Bot img {
