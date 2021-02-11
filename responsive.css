@@ -40,10 +40,6 @@
 }
 
 @media all and (max-width: 670px) {
-  body {
-    background: cover;
-  }
-
   h1 {
     font-size: 25px;
     letter-spacing: 5px;
