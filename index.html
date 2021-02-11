@@ -58,7 +58,6 @@
       <div class="container">
         <h2>WORKS</h2>
         <div class="works">
-
           <div class="work WG">
             <h3>
               <i class="fas fa-paint-brush"></i>
@@ -66,14 +65,14 @@
             </h3>
             <div class="explains">
               <ul class="explain">
-                <li class="explain-left">
+                <li class="box2">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/tsdrCBcg9dM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </li>
-                <li class="explain-right">
+                <li class="box1">
                   <h4>どんなゲーム？</h4>
                   <p>
                     このゲームは初対面の人同士が集まった時に、楽しく自己紹介をして、自然に会話をしてもらうためのアイスブレイクツールです。
-                    Unityを使って開発しました。PCで遊べます。
+                    Unityとモノビットエンジンを使って開発しました。
                     ゲームが始まると、参加者は街の中から自分が好きな建物の壁を探します。
                     そして、その壁に自分を表すテキストを配置し、それをグラフィティアートのようにデザインしていきます。
                     そうすることで、デザインされた壁がいくつかできあがるため、それを見ながらお互いに自己紹介を進めていきます。
@@ -81,22 +80,24 @@
                 </li>
               </ul>
               <ul class="explain">
-                <li class="box2">
+                <li>
                   <h4>何をした？</h4>
-                  <p class="explain-left post">
+                  <p class="explain-left">
+                    このゲームは学内のプロジェクト活動で開発したものです。
+                    メンバーはデザイン班５人とプログラミング班４人の合計９人です。
                     私はこのプロジェクトのプログラミング班として、企画段階におけるアイディア出しや実現可能性分析、また、複数の機能をゲームに実装することで開発に貢献しました。
                     私が実装した機能は、主にテキストの出力・削除機能、出力されたテキストを選択し、色・フォント・サイズ・角度を変更する機能、テキストの和訳機能、チュートリアル機能などです。
                   </p>
                 </li>
-                <li class="box1">
+                <li>
                   <img class="explain-right" src="images/WG1.png">
                 </li>
               </ul>
               <ul class="explain">
-                <li>
+                <li class="box2">
                   <img class="explain-left"  src="images/roleplay.png">
                 </li>
-                <li>
+                <li class="box1">
                   <h4>どうだった？</h4>
                   <p class="explain-right">
                     集団・長期間の開発を行うプロジェクトでは、技術的なことだけでなく様々なことが学べました。
@@ -107,7 +108,7 @@
               </ul>
               <ul>
                 <li>
-                  <a href="https://drive.google.com/drive/u/1/folders/1lKVzyQKSi9HmZNXW8KsFEk1f8_c0eIUn" target=“_blank” rel="noopener noreferrer">ダウンロードはこちら</a>
+                  <a href="https://drive.google.com/drive/u/1/folders/1lKVzyQKSi9HmZNXW8KsFEk1f8_c0eIUn" class="download" target=“_blank” rel="noopener noreferrer">ダウンロードはこちら</a>
                 </li>
                 <li>
                   <a href="https://github.com/sesshu-test/WhoseGraffiti_MyScripts" target=“_blank” rel="noopener noreferrer">ソースコードはこちら</a>
@@ -124,11 +125,11 @@
               飲食店紹介ボット
             </h3>
             <ul class="explain">
-                <li class="explain-left">
+                <li class="box2">
                   <img src="images/bot1.png">
                   <img src="images/bot2.png">
                 </li>
-                <li class="explain-right">
+                <li class="box1">
                   <h4>何ができる？</h4>
                   <p>
                     ・これは飲食店を紹介してくれるチャットボットです。
@@ -137,10 +138,10 @@
                     <br>・Node.jsとホットペッパーグルメのAPIとPostgreSQLを使って開発しました。
                   </p>
                 </li>
-                <li>
-                  <a href="https://github.com/sesshu-test/HotPepparBot" target=“_blank” rel="noopener noreferrer" >ソースコードはこちら</a>
-                </li>
               </ul>
+              <a href="https://github.com/sesshu-test/HotPepparBot" target=“_blank” rel="noopener noreferrer" >ソースコードはこちら</a>
+              <div class="clear">
+              </div>
           </div>
 
           <div class="work HomeRun">
@@ -149,20 +150,32 @@
               ホームラン競走
             </h3>
             <ul class="explain">
-                <li class="explain-left">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/_DKwVNcpeYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </li>
-                <li class="explain-right">
-                  <h4>どんなゲーム？</h4>
-                  <p>
-                    ・これは実際に体を動かして遊ぶ、ホームラン競争ゲームです。
-                    <br>・Unity、マイコン、加速度センサ、Bluetoothデバイスを使って開発しました。
-                    <br>・マイコンと加速度センサとBluetoothデバイスを内蔵したバットをスイングすると、Blutooth通信でUnityにその情報を送り、ゲーム内のバットが連動してスイングされるようになっています。
-                    <br>・ユーザーはピッチャーが投げるボールにうまくタイミングを合わせてスイングすることで、ホームランを狙います。
-                    <br>（著作権の都合上、ゲーム音声はミュートにしています。）
-                  </p>
-                </li>
-              </ul>
+              <li class="box2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_DKwVNcpeYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </li>
+              <li class="box1">
+                <h4>どんなゲーム？</h4>
+                <p>
+                  ・これは実際に体を動かして遊ぶ、ホームラン競争ゲームです。
+                  <br>・マイコン、加速度センサ、Bluetoothデバイスを内蔵したバットをスイングすると、Blutooth通信でUnityに情報を送り、ゲーム内のバットが連動してスイングされるようになっています。
+                  <br>・ユーザーはピッチャーが投げるボールに、うまくタイミングを合わせて実際にバットをスイングして、ホームランを狙います。
+                  <br>※著作権の都合上、ゲーム音声はミュートにしています。
+                </p>
+              </li>
+            </ul>
+            <ul class="explain">
+              <li>
+                <h4>どうやって開発した？</h4>
+                <p class="explain-left">
+                  ・Unity、マイコン（micro:bit）、加速度センサ、Bluetoothデバイスを使って開発しました。
+                  <br>・このゲームの制作で苦労したことは、使用するマイコンに対応しているBluetoothデバイスの検索や、Bluetooth通信の実装などです。
+                  <br>※大学2年次に制作しました。
+                </p>
+              </li>
+              <li>
+                <img class="explain-right" src="images/microcomputer.JPG">
+              </li>
+            </ul>
           </div>
 
         </div>
